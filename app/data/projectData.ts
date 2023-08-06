@@ -31,7 +31,7 @@ export const projectData = [
         name: "NodeJS",
       },
       {
-        id: 32,
+        id: 34,
         name: "Supabase",
       },
     ],
