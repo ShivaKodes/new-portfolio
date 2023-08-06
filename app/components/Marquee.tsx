@@ -9,21 +9,21 @@ export default function Marquee2() {
     >
       <div className="col-span-full  flex whitespace-nowrap text-4xl font-serif">
         <p className="after:content after:w-4 after:h-4 after:bg-lime after:inline-block after:rounded-full after:mx-3">
-          Let's build something{" "}
+          Let&apos;s build something{" "}
           <span className="font-mulish text-4xl italic text-lime">
             Amazing!
           </span>{" "}
           together
         </p>
         <p className="after:content after:w-4 after:h-4 after:bg-lime after:inline-block after:rounded-full after:mx-3">
-          Let's build something{" "}
+          Let&apos;s build something{" "}
           <span className="font-mulish text-4xl italic text-lime">
             Amazing!
           </span>{" "}
           together
         </p>
         <p className="after:content after:w-4 after:h-4 after:bg-lime after:inline-block after:rounded-full after:mx-3">
-          Let's build something{" "}
+          Let&apos;s build something{" "}
           <span className="font-mulish text-4xl italic text-lime">
             Amazing!
           </span>{" "}
