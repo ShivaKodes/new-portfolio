@@ -1,15 +1,10 @@
-import spotify from "@/public/spotify.svg";
-import split from "@/public/spliit.png";
-import saas from "@/public/saas-ai.svg";
-import pwd from "@/public/pwd.png";
-import zepto from "@/public/zepto.png";
 
 export const projectData = [
   {
     id: 3,
     name: "Music Player(Spotify)",
     description: "Production ready music player where user can register/login, create playlists, add songs and listen to songs",
-    image: spotify,
+    image: "/spotify.svg",
     github: "github.com/ShivaKodes/spotify-clone",
     live: "museic.vercel.app",
     color: "#efe8d3",
@@ -40,7 +35,7 @@ export const projectData = [
     id: 4,
     name: "AI SaaS Dashboard",
     description: "Platform for users to interact with AI. Users can have conversation and generate images, videos, music and code snippets",
-    image: saas,
+    image: "/saas-ai.svg",
     github: "github.com/ShivaKodes/saas-ai-dashboard",
     live: "arty-gem.vercel.app",
     color: "#706d63",
@@ -79,7 +74,7 @@ export const projectData = [
     id: 1,
     name: "Spliit",
     description: "A bill splitting web app",
-    image: split,
+    image: "/spliit.png",
     github: "github.com/ShivaKodes/Split",
     live: "",
     color: "#8c8c8c",
@@ -106,7 +101,7 @@ export const projectData = [
     id: 2,
     name: "Zepto URL",
     description: "A URL shortner site built using shrtcode API",
-    image: zepto,
+    image: "/zepto.png",
     github: "github.com/ShivaKodes/zepto-url",
     live: "zepto-url.netlify.app",
 
@@ -136,7 +131,7 @@ export const projectData = [
     id: 5,
     name: "Password Generator",
     description: "A password generator using vanila JavaScript",
-    image: pwd,
+    image: "/pwd.png",
     github: "github.com/ShivaKodes/Password-Generator",
     live: "good-password.netlify.app",
     color: "#706d63",
