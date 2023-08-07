@@ -2,6 +2,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 import Pill from "./Pill";
 import Link from "next/link";
 import { Project, StateProps } from "@/types";
+import { Reveal } from "./Reveal";
 
 interface ProjectCardProps{
   project:Project,
@@ -11,6 +12,7 @@ interface ProjectCardProps{
 
 export default function ProjectCard({ project, index, setModal }:ProjectCardProps) {
   const cards = (
+   
     <div
       className="text-white flex items-center col-span-full w-full border-t border-white/50 pt-5 font-mulish user-select-none hover:opacity-70 group transition duration-200 ease-linear"
       onMouseEnter={() => {
@@ -21,14 +23,23 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
       }}
     >
       <div className="w-full flex items-center h-full">
+        
         <article className="flex flex-col self-start flex-1  w-1/2 tablet:gap-2 group-hover:translate-x-3 transition duration-200 ease-linear">
-          <h3 className="text-[clamp(1.125rem,0.875rem+1.25vw,2rem)] text-lime">
+          <Reveal width="100%">
+          <h3 className="text-xl md:text-3xl lg:text-4xl text-lime">
             {project.name}
           </h3>
-          <p className="text-[clamp(0.75rem,0.6428571428571428rem+0.5357142857142857vw,1.125rem)]   text-white/70">
+          </Reveal>
+          <Reveal>
+          <p className="text-xs md:text-lg   text-white/70">
             {project.description}
           </p>
+          </Reveal>
+          <Reveal>
           <div className="flex flex-wrap w-full ">
+            
+
+            
             {project.tech.map((tech) => (
               <Pill
                 key={tech.id}
@@ -39,7 +50,9 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
               />
             ))}
           </div>
+            </Reveal>
         </article>
+        <Reveal>
         <div className="col-start-10 flex flex-col items-end gap-2 tablet:gap-4 font-bold italic text-[clamp(0.75rem,0.3928571428571429rem+1.7857142857142856vw,2rem)] group-hover:-translate-x-3 transition duration-200 ease-linear">
           <Link
             href={`https://${project.github}`}
@@ -62,8 +75,10 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
             </span>
           </Link>
         </div>
+      </Reveal>
       </div>
     </div>
+   
   );
 
   return cards;

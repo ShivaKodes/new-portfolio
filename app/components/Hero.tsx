@@ -2,35 +2,28 @@
 
 import { useRef } from "react";
 import HeroText from "./HeroText";
+import { Reveal } from "./Reveal";
+
 
 
 export default function Hero() {
-  const data = ["F", "r", "o", "n", "t", "e", "n", "d"];
-  const frontendRef = useRef(null);
-  const developerRef = useRef(null);
-
-  // const splitFrontend =
-  // const splitDeveloper = new SplitType(developerRef.current);
-  // console.log(frontendRef);
-  // gsap.to(frontendRef.current, {
-  //   duration: 0.1,
-  //   y: 0,
-  //   stagger: 0.05,
-  //   delay: 0.2,
-  // });
-
+  
+// opacity-80 bg-[radial-gradient(#fff_0.5px,transparent_0.5px)] bg-[length:10px_10px]
   return (
+    
     <section
-      className="w-full  text-[#fff]  pt-10  col-span-full select-none grid grid-cols-6 px-2 tablet:px-10 gap-5 tablet:grid-cols-12 "
+      className="w-full  text-[#fff]  pt-10  col-span-full select-none grid grid-cols-6 px-2 tablet:px-10 gap-5 tablet:grid-cols-12  "
       id="project"
     >
       <div className="max-w-1/2 z-10 text-white mx-auto text-center col-span-full">
+        
+        
         <h1
-          className="text-[clamp(1.5rem,1rem+10vw,6rem)]
-         font-serif text-lime flex flex-col items-center"
+          className={`text-5xl md:text-8xl xl font-serif
+          text-lime flex flex-col items-center py-4`}
         >
-          <span className="m-0">
-            {data.map((item, index) => (
+          {/* <span className="m-0"> */}
+            {/* {data.map((item, index) => (
               <span
                 key={index}
                 className="leading-tight"
@@ -41,13 +34,22 @@ export default function Hero() {
               </span>
             ))}
           </span>{" "}
+          </Reveal>
+          <Reveal>
+         
           <span
             className="leading-tight
           "
           >
-            Developer
-          </span>
+            Developer */}
+            Hey, I&apos;m Shiva. 
+          {/* </span> */}
         </h1>
+           
+           <Reveal>
+
+        <p className="max-w-xl text-justify text-base md:text-xl px-5 md:px-0">I&apos;m a <span className="text-lime">frontend developer</span> with a knack of design. Over the span of last one year, I have built many frontend and full-stack applications which has made me a better developer. I </p>
+           </Reveal>
       </div>
       <HeroText />
     </section>

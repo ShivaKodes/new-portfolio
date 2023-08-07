@@ -73,7 +73,7 @@ export const projectData = [
   {
     id: 1,
     name: "Spliit",
-    description: "A bill splitting web app",
+    description: "A bill splitting web app where users can form group and split their expenses",
     image: "/spliit.png",
     github: "github.com/ShivaKodes/Split",
     live: "github.com/ShivaKodes/Split",

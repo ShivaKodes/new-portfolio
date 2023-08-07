@@ -1,5 +1,8 @@
+"use client"
+
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+import { Reveal } from "./Reveal";
 
 export default function Footer() {
   return (
@@ -7,9 +10,12 @@ export default function Footer() {
       className="w-full col-span-full flex flex-col items-center mt-10 text-white"
       id="footer"
     >
-      <h3 className="text-[#6DD7B9] font-serif text-2xl mb-10">
+      <Reveal>
+
+      <h3 className="text-[#6DD7B9] font-serif text-base md:text-2xl mb-10">
         Crafted with <span className="text-red">&#x2764;</span> and with the help of <Link href={"https://en.wikipedia.org/wiki/Shiva"} className="underline underline-offset-2 text-lime">Shiva</Link>
       </h3>
+      </Reveal>
       <a href="#header" className="text-base text-white/70">
         back to top
       </a>
@@ -18,7 +24,7 @@ export default function Footer() {
         speed={80}
         gradient={false}
       >
-        <div className="col-span-full  flex whitespace-nowrap text-3xl font-mulish">
+        <div className="col-span-full  flex whitespace-nowrap text-lg md:text-3xl font-mulish">
           <p className="after:content after:w-4 after:h-4 after:bg-lime after:inline-block after:rounded-full after:mr-3">
             Available to build{" "}
           </p>
