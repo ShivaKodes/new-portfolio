@@ -1,9 +1,13 @@
+
+"use client"
 import SectionHeader from "./SectionHeader";
 import { BsArrowUpRight } from "react-icons/bs";
 import Profile from "./Profile";
 import Button from "./Button";
 
+
 export default function About() {
+  
   return (
     <section
       className="grid grid-cols-12 px-5 tablet:px-10 gap-5 col-span-full max-w-5xl mx-auto"

@@ -76,7 +76,7 @@ export const projectData = [
     description: "A bill splitting web app",
     image: "/spliit.png",
     github: "github.com/ShivaKodes/Split",
-    live: "",
+    live: "github.com/ShivaKodes/Split",
     color: "#8c8c8c",
     tech: [
       {

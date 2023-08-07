@@ -44,6 +44,7 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
           <Link
             href={`https://${project.github}`}
             className="flex items-center group"
+            
           >
             github{" "}
             <span className="group-hover:scale-110">
@@ -53,6 +54,7 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
           <Link
             href={`https://${project.live}`}
             className="flex items-center group"
+             
           >
             try here
             <span className="group-hover:scale-110">
