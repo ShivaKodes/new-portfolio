@@ -13,7 +13,7 @@ export default function Footer() {
       <Reveal>
 
       <h3 className="text-[#6DD7B9] font-serif text-base md:text-2xl mb-10">
-        Crafted with <span className="text-red">&#x2764;</span> and with the help of <Link href={"https://en.wikipedia.org/wiki/Shiva"} className="underline underline-offset-2 text-lime">Shiva</Link>
+        Crafted with <span className="text-red">&#x2764;</span>
       </h3>
       </Reveal>
       <a href="#header" className="text-base text-white/70">

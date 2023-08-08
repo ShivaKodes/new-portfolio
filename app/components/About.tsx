@@ -50,7 +50,7 @@ export default function About() {
 
             <p className="text-2xl font-light font-mulish text-white">
               With a solid foundation in web development and a hunger to keep
-              learning, I&apos;m excited to see where my skills take me.{" "} I&apos;m open to discuss any project and freelance contracts.
+              learning, I&apos;m excited to see where my skills take me.{" "} 
             <p className="pt-5">Always curious .</p>
             </p>
             </Reveal>

@@ -11,7 +11,7 @@ export default function Profile() {
         href="https://www.linkedin.com/in/shivakumar17"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:text-[#0077b5] drop-shadow-lg"
+        className="hover:text-[#0077b5] hover:-translate-y-1 transition duration-200 ease-in-out"
       >
         <BsLinkedin size={24} />
       </Link>
@@ -19,7 +19,7 @@ export default function Profile() {
         href="https://www.github.com/ShivaKodes"
         target="_blank"
         rel="noopener noreferrer "
-        className="hover:text-[#4078c0]"
+        className="hover:text-[#4078c0] hover:-translate-y-1 transition duration-200 ease-in-out"
       >
         <BsGithub size={24} />
       </Link>
@@ -27,9 +27,9 @@ export default function Profile() {
         href="https://twitter.com/__shk20_"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:text-[#1DA1F2]"
+        className="hover:text-[#1DA1F2] hover:-translate-y-1 transition duration-200 ease-in-out"
       >
-        <BsTwitter size={24} />
+        <Image src={'/logo.svg'} className="hover:-translate-y-1 transition duration-200 ease-in-out" width={24} height={24} alt="x logo"/>
       </Link>
     </div>
   );

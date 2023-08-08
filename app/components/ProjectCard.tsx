@@ -37,9 +37,6 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
           </Reveal>
           <Reveal>
           <div className="flex flex-wrap w-full ">
-            
-
-            
             {project.tech.map((tech) => (
               <Pill
                 key={tech.id}
@@ -52,30 +49,31 @@ export default function ProjectCard({ project, index, setModal }:ProjectCardProp
           </div>
             </Reveal>
         </article>
-        <Reveal>
+        
         <div className="col-start-10 flex flex-col items-end gap-2 tablet:gap-4 font-bold italic text-[clamp(0.75rem,0.3928571428571429rem+1.7857142857142856vw,2rem)] group-hover:-translate-x-3 transition duration-200 ease-linear">
+          <Reveal>
           <Link
             href={`https://${project.github}`}
             className="flex items-center group"
-            
           >
             github{" "}
             <span className="group-hover:scale-110">
               <BsArrowUpRight />
             </span>
           </Link>
+          </Reveal>
+          <Reveal>
           <Link
             href={`https://${project.live}`}
             className="flex items-center group"
-             
           >
             try here
             <span className="group-hover:scale-110">
               <BsArrowUpRight />
             </span>
           </Link>
-        </div>
       </Reveal>
+        </div>
       </div>
     </div>
    

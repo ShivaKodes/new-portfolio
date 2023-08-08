@@ -1,20 +1,15 @@
 <svg width="371" height="262" viewBox="0 0 371 262" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_203_415)">
+<rect x="136" y="231.329" width="270" height="135" transform="rotate(-23.4229 136 231.329)" fill="url(#pattern0)" fill-opacity="0.9"/>
+<rect x="211" y="47.3291" width="270" height="135" transform="rotate(-23.4229 211 47.3291)" fill="url(#pattern1)" fill-opacity="0.9"/>
+<rect x="-44" y="157.329" width="270" height="135" transform="rotate(-23.4229 -44 157.329)" fill="url(#pattern2)" fill-opacity="0.9"/>
+<rect x="-54" y="8.3291" width="270" height="135" transform="rotate(-23.4229 -54 8.3291)" fill="url(#pattern3)" fill-opacity="0.9"/>
 <g filter="url(#filter0_f_203_415)">
-<rect x="83" y="72" width="256" height="132" rx="66" fill="#454C92"/>
+<rect x="112" y="72" width="256" height="132" rx="66" fill="#187A3B"/>
 </g>
-<rect x="136" y="231.329" width="270" height="135" transform="rotate(-23.4229 136 231.329)" fill="url(#pattern0)" fill-opacity="0.5"/>
-<rect x="211" y="47.3291" width="270" height="135" transform="rotate(-23.4229 211 47.3291)" fill="url(#pattern1)" fill-opacity="0.5"/>
-<rect x="-44" y="157.329" width="270" height="135" transform="rotate(-23.4229 -44 157.329)" fill="url(#pattern2)" fill-opacity="0.5"/>
-<rect x="-54" y="8.3291" width="270" height="135" transform="rotate(-23.4229 -54 8.3291)" fill="url(#pattern3)" fill-opacity="0.5"/>
-<rect x="50" y="64" width="270" height="135" fill="url(#pattern4)"/>
+<rect x="19" y="50" width="332" height="163" fill="url(#pattern4)"/>
 </g>
 <defs>
-<filter id="filter0_f_203_415" x="-117" y="-128" width="656" height="532" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_203_415"/>
-</filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_203_415" transform="matrix(0.000540249 0 0 0.0010805 0 -0.000270124)"/>
 </pattern>
@@ -27,8 +22,13 @@
 <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_203_415" transform="matrix(0.000540249 0 0 0.0010805 0 -0.000270124)"/>
 </pattern>
+<filter id="filter0_f_203_415" x="-88" y="-128" width="656" height="532" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_203_415"/>
+</filter>
 <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_203_415" transform="matrix(0.000540249 0 0 0.0010805 0 -0.000270124)"/>
+<use xlink:href="#image0_203_415" transform="matrix(0.000540249 0 0 0.00110038 0 -0.00947755)"/>
 </pattern>
 <clipPath id="clip0_203_415">
 <rect width="371" height="262" fill="white"/>

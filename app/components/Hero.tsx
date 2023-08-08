@@ -48,7 +48,7 @@ export default function Hero() {
            
            <Reveal>
 
-        <p className="max-w-xl text-justify text-base md:text-xl px-5 md:px-0">I&apos;m a <span className="text-lime">frontend developer</span> with a knack of design. Over the span of last one year, I have built many frontend and full-stack applications which has made me a better developer. I </p>
+        <p className="max-w-xl text-justify text-base md:text-xl px-5 md:px-0">I&apos;m a <span className="text-lime">frontend developer</span>. Imagine a year of learning and whipping up frontend and full-stack wonders – that&apos;s been my jam. Now, I&apos;m on the <span className="text-lime"> hunt for a full-time gig </span>to keep the good times rolling. Let&apos;s team up and make tech sparkle! </p>
            </Reveal>
       </div>
       <HeroText />
