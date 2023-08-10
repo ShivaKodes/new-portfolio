@@ -1,5 +1,5 @@
 import { BsLinkedin, BsTwitter, BsGithub } from "react-icons/bs";
-import me from "@/public/pass-pic.png";
+import me from "@/public/Me.png";
 import Image from "next/image";
 import Link from "next/link";
 
