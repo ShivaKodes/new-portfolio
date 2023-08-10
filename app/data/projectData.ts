@@ -4,7 +4,7 @@ export const projectData = [
     id: 3,
     name: "Music Player(Spotify)",
     description: "Production ready music player where user can register/login, create playlists, add songs and listen to songs",
-    image: "/Spotify.svg",
+    image: "/spotify.svg",
     github: "github.com/ShivaKodes/spotify-clone",
     live: "museic.vercel.app",
     color: "#efe8d3",
