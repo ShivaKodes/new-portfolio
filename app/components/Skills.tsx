@@ -32,7 +32,7 @@ export default function Tools() {
       id="skills"
     >
       <SectionHeader title={"Skills"} flexDir="flex-row-reverse"/>
-      <p className="col-span-full text-xl md:text-2xl text-center pb-3">I&apos;m all about using a <span className="text-lime"> versatile</span> toolkit that includes my favorite technologies. With a hunger for learning, I&apos;m on a constant journey of upskilling to stay at the <span className="text-lime">forefront.</span></p>
+      <p className="col-span-full text-xl md:text-2xl text-center pb-3">I&apos;m all about using a <span className="text-lime"> versatile</span> tools that includes my favorite technologies. With a hunger for learning, I&apos;m on a constant journey of upskilling to stay at the <span className="text-lime">forefront.</span></p>
       <div
         className="w-full tablet:w-1/2 flex gap-y-3 items-center  flex-wrap col-span-full mx-auto"
         style={{ flex: "1 0 auto" }}
